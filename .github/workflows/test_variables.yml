@@ -1,0 +1,14 @@
+on:
+    workflow_dispatch
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - permissions:
+            actions: write
+      - run: |
+            gh variable list
+            gh variable set TEST_VAR --body "Set from workflow"
+            gh variable list
