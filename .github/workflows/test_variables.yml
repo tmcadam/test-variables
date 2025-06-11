@@ -1,5 +1,4 @@
-on:
-    workflow_dispatch
+on: [workflow_dispatch, push]
 
 jobs:
   comment:
@@ -9,7 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+
       - run: |
             gh variable list
             gh variable set TEST_VAR --body "Set from workflow"
             gh variable list
+        env:
+          GH_TOKEN: ${{ GITHUB_TOKEN }}
