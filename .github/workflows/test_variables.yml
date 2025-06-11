@@ -8,7 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-            gh auth login --with-token <<< "$GITHUB_TOKEN"
             gh variable list
             gh variable set TEST_VAR1 --body "Set from workflowdfg"
             gh variable list
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
