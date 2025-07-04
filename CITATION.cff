@@ -1,0 +1,37 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Some Test Package
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Thomas Frazer
+    name-particle: Mr
+    family-names: McAdam
+    email: thomas.mcadam@anu.edu.au
+    affiliation: Australian National University
+identifiers:
+  - type: doi
+    value: 10.1234/zenodo.4321
+abstract: >-
+  Lorem Ipsum is simply dummy text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's
+  standard dummy text ever since the 1500s, when an unknown
+  printer took a galley of type and scrambled it to make a
+  type specimen book. It has survived not only five
+  centuries, but also the leap into electronic typesetting,
+  remaining essentially unchanged. It was popularised in the
+  1960s with the release of Letraset sheets containing Lorem
+  Ipsum passages, and more recently with desktop publishing
+  software like Aldus PageMaker including versions of Lorem
+  Ipsum.
+keywords:
+  - Test
+  - Climate
+license: GPL-3.0
+commit: 2025.07.001
+version: 2025.07.001
+date-released: '2025-07-01'
