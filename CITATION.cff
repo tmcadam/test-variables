@@ -5,7 +5,7 @@ cff-version: 1.2.0
 title: Some Test Package
 message: >-
   If you use this software, please cite it using the
-  metadata from this file.
+  metadata from this file. Main
 type: software
 authors:
   - given-names: Thomas Frazer
