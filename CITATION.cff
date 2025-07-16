@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Some Test Package (main)
+title: Some Test Package (cff)
 message: >-
   If you use this software, please cite it using the
   metadata from this file. Main (latest)
